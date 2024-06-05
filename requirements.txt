@@ -1,8 +1,0 @@
-graphviz
-#treekit
-sphinx
-sphinx-rtd-theme
-sphinxcontrib-napoleon
-pytest
-coverage
-anytree
