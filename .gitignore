@@ -1,0 +1,19 @@
+env
+
+# Python specific ignores
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+dist/
+build/
+env/
+.venv/
+venv/
+# Sphinx build directory
+docs/_build/
+# General ignores
+*.log
+*.tmp
+*.bak
+.DS_Store
