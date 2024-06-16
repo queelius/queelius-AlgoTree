@@ -1,8 +1,0 @@
-anytree>=2.8.0
-graphviz>=0.16
-
-[dev]
-sphinx
-sphinx-rtd-theme
-sphinxcontrib-napoleon
-coverage
