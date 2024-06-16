@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="./">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>AlgoTree.flattree_node module &#8212; AlgoTree 0.1.0 documentation</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=61cd365c" />
+    <link rel="stylesheet" type="text/css" href="_static/alabaster.css?v=12dfc556" />
+    <script src="_static/documentation_options.js?v=01f34227"></script>
+    <script src="_static/doctools.js?v=9a2dae69"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+
+  
+  
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <section id="module-AlgoTree.flattree_node">
+<span id="algotree-flattree-node-module"></span><h1>AlgoTree.flattree_node module<a class="headerlink" href="#module-AlgoTree.flattree_node" title="Link to this heading">¶</a></h1>
+<dl class="py class">
+<dt class="sig sig-object py" id="AlgoTree.flattree_node.FlatTreeNode">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">AlgoTree.flattree_node.</span></span><span class="sig-name descname"><span class="pre">FlatTreeNode</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">name</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">parent</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#AlgoTree.flattree_node.FlatTreeNode" title="AlgoTree.flattree_node.FlatTreeNode"><span class="pre">FlatTreeNode</span></a><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">children</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">List</span><span class="p"><span class="pre">[</span></span><a class="reference internal" href="#AlgoTree.flattree_node.FlatTreeNode" title="AlgoTree.flattree_node.FlatTreeNode"><span class="pre">FlatTreeNode</span></a><span class="p"><span class="pre">]</span></span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/AlgoTree/flattree_node.html#FlatTreeNode"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#AlgoTree.flattree_node.FlatTreeNode" title="Link to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">MutableMapping</span></code></p>
+<dl class="py method">
+<dt class="sig sig-object py" id="AlgoTree.flattree_node.FlatTreeNode.add_child">
+<span class="sig-name descname"><span class="pre">add_child</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">name</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="#AlgoTree.flattree_node.FlatTreeNode" title="AlgoTree.flattree_node.FlatTreeNode"><span class="pre">FlatTreeNode</span></a></span></span><a class="reference internal" href="_modules/AlgoTree/flattree_node.html#FlatTreeNode.add_child"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#AlgoTree.flattree_node.FlatTreeNode.add_child" title="Link to this definition">¶</a></dt>
+<dd><p>Add a child node. See <cite>__init__</cite> for details on the arguments.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>The child node, from the perspective of the subtree that
+contains the parent.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="AlgoTree.flattree_node.FlatTreeNode.children">
+<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">children</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">List</span><span class="p"><span class="pre">[</span></span><a class="reference internal" href="#AlgoTree.flattree_node.FlatTreeNode" title="AlgoTree.flattree_node.FlatTreeNode"><span class="pre">FlatTreeNode</span></a><span class="p"><span class="pre">]</span></span></em><a class="headerlink" href="#AlgoTree.flattree_node.FlatTreeNode.children" title="Link to this definition">¶</a></dt>
+<dd><p>Get the children of the node.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>List of child nodes.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="AlgoTree.flattree_node.FlatTreeNode.clone">
+<span class="sig-name descname"><span class="pre">clone</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">parent</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">clone_children</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="#AlgoTree.flattree_node.FlatTreeNode" title="AlgoTree.flattree_node.FlatTreeNode"><span class="pre">FlatTreeNode</span></a></span></span><a class="reference internal" href="_modules/AlgoTree/flattree_node.html#FlatTreeNode.clone"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#AlgoTree.flattree_node.FlatTreeNode.clone" title="Link to this definition">¶</a></dt>
+<dd><p>Clone the node and, optionally, its children. If you want to
+clone the entire tree, use <cite>deepcopy(tree)</cite> instead. We allow
+the parent to be set to a new parent node to facilitate flexible
+cloning of nodes into new tree structures.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>A new node (or subtree rooted at the node if <cite>clone_children</cite>
+is True)</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="AlgoTree.flattree_node.FlatTreeNode.detach">
+<span class="sig-name descname"><span class="pre">detach</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="#AlgoTree.flattree_node.FlatTreeNode" title="AlgoTree.flattree_node.FlatTreeNode"><span class="pre">FlatTreeNode</span></a></span></span><a class="reference internal" href="_modules/AlgoTree/flattree_node.html#FlatTreeNode.detach"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#AlgoTree.flattree_node.FlatTreeNode.detach" title="Link to this definition">¶</a></dt>
+<dd><p>Detach the node from the tree.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>The detached node.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="AlgoTree.flattree_node.FlatTreeNode.name">
+<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">name</span></span><a class="headerlink" href="#AlgoTree.flattree_node.FlatTreeNode.name" title="Link to this definition">¶</a></dt>
+<dd><p>Get the unique name of the node.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>The unique name of the node.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="AlgoTree.flattree_node.FlatTreeNode.node">
+<span class="sig-name descname"><span class="pre">node</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">name</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="#AlgoTree.flattree_node.FlatTreeNode" title="AlgoTree.flattree_node.FlatTreeNode"><span class="pre">FlatTreeNode</span></a></span></span><a class="reference internal" href="_modules/AlgoTree/flattree_node.html#FlatTreeNode.node"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#AlgoTree.flattree_node.FlatTreeNode.node" title="Link to this definition">¶</a></dt>
+<dd><p>Get an ancestor node with the given name.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>name</strong> – The name of the node.</p>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>The node.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="AlgoTree.flattree_node.FlatTreeNode.parent">
+<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">parent</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference internal" href="#AlgoTree.flattree_node.FlatTreeNode" title="AlgoTree.flattree_node.FlatTreeNode"><span class="pre">FlatTreeNode</span></a><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></em><a class="headerlink" href="#AlgoTree.flattree_node.FlatTreeNode.parent" title="Link to this definition">¶</a></dt>
+<dd><p>Get the parent node of the node.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>The parent node.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="AlgoTree.flattree_node.FlatTreeNode.payload">
+<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">payload</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">Dict</span></em><a class="headerlink" href="#AlgoTree.flattree_node.FlatTreeNode.payload" title="Link to this definition">¶</a></dt>
+<dd><p>Get the payload data of the node.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>Dictionary representing the data of the node.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="AlgoTree.flattree_node.FlatTreeNode.proxy">
+<em class="property"><span class="pre">classmethod</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">proxy</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">tree</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="AlgoTree.flattree.html#AlgoTree.flattree.FlatTree" title="AlgoTree.flattree.FlatTree"><span class="pre">FlatTree</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">node_key</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">root_key</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="#AlgoTree.flattree_node.FlatTreeNode" title="AlgoTree.flattree_node.FlatTreeNode"><span class="pre">FlatTreeNode</span></a></span></span><a class="reference internal" href="_modules/AlgoTree/flattree_node.html#FlatTreeNode.proxy"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#AlgoTree.flattree_node.FlatTreeNode.proxy" title="Link to this definition">¶</a></dt>
+<dd><p>Create a proxy node for a subtree.</p>
+<p>We do not check do any checks on the validity of the keys or the
+structure of the tree. This is a low-level method that should be used
+with caution. For instance, if <cite>node_key</cite> is not a descendent of
+<cite>root_key</cite>, the proxy node will not behave as expected.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>tree</strong> – The tree in which the proxy node exists (or logically exists).</p></li>
+<li><p><strong>node_key</strong> – The key of the node.</p></li>
+<li><p><strong>root_key</strong> – The key of the (logical) root node.</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="AlgoTree.flattree_node.FlatTreeNode.root">
+<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">root</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference internal" href="#AlgoTree.flattree_node.FlatTreeNode" title="AlgoTree.flattree_node.FlatTreeNode"><span class="pre">FlatTreeNode</span></a></em><a class="headerlink" href="#AlgoTree.flattree_node.FlatTreeNode.root" title="Link to this definition">¶</a></dt>
+<dd><p>Get the root node of the subtree.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>The root node.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="AlgoTree.flattree_node.FlatTreeNode.subtree">
+<span class="sig-name descname"><span class="pre">subtree</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">name</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="#AlgoTree.flattree_node.FlatTreeNode" title="AlgoTree.flattree_node.FlatTreeNode"><span class="pre">FlatTreeNode</span></a></span></span><a class="reference internal" href="_modules/AlgoTree/flattree_node.html#FlatTreeNode.subtree"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#AlgoTree.flattree_node.FlatTreeNode.subtree" title="Link to this definition">¶</a></dt>
+<dd><p>Get a subtree rooted at the node with the name <cite>name</cite>. If <cite>name</cite> is
+None, the subtree is rooted at the current node.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>name</strong> – The name of the root node.</p>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>A subtree rooted at the given node.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="AlgoTree.flattree_node.FlatTreeNode.tree">
+<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">tree</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference internal" href="AlgoTree.flattree.html#AlgoTree.flattree.FlatTree" title="AlgoTree.flattree.FlatTree"><span class="pre">FlatTree</span></a></em><a class="headerlink" href="#AlgoTree.flattree_node.FlatTreeNode.tree" title="Link to this definition">¶</a></dt>
+<dd><p>Get the underlying FlatTree object.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>The FlatTree object.</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">AlgoTree</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="introduction.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="flattree.html">FlatTree</a></li>
+<li class="toctree-l1"><a class="reference internal" href="treenode.html">TreeNode</a></li>
+<li class="toctree-l1"><a class="reference internal" href="flattree_notebook.html"><cite>FlatTree</cite> Notebook</a></li>
+<li class="toctree-l1"><a class="reference internal" href="expression_tree_notebook.html">Expression Trees Notebook</a></li>
+<li class="toctree-l1"><a class="reference internal" href="modules.html">API Reference: <cite>AlgoTree</cite> Package</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+  </ul></li>
+</ul>
+</div>
+<search id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &#169;2024, Alex Towell.
+      
+      |
+      Powered by <a href="https://www.sphinx-doc.org/">Sphinx 7.3.7</a>
+      &amp; <a href="https://alabaster.readthedocs.io">Alabaster 0.7.16</a>
+      
+      |
+      <a href="_sources/AlgoTree.flattree_node.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>
